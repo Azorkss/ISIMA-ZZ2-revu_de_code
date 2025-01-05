@@ -1,0 +1,37 @@
+Outils utilisés
+
+jd-gui : decompileur java
+keystore explorer
+
+
+En partant de com.michelin/xnet.crypto/eclipselink/CryptoConverter.class
+
+La classe CryptoConverter utlilise une interface qui s'appelle CryptoConverter
+
+A l'intérieur de cette classe il y a 2 attributs privés et 1 attribut public.
+
+Dans les attributs privés il y a un logger (a explorer mais ce n'est pas mon premier choix d'exploration)
+Il y a également un objet mc qui s'appele façade (c'est ma première piste).
+
+Il y a également une méthode initialize qui doit permettre d'initialiser avec un try catch.
+Je devrai expliquer plus tard ce que fait plus précisement le initialize.
+Pour le moment je note qu'on utilise la méthode "a" avec les paramètres suivant (String)config.getProperty(String.class, "crypto.keystore"), str ou avec ces paramètres là si une condition n'est pas réspecté null, str
+Il y a avant l'utilisation de mE (je regarderai plus tard).
+
+Dans ce fichier de class il y a également 3 autres méthodes.
+isMutable qui répond false, ConvertDataValueToObjectValue (elle fait ce qu'elle dit) et son opposé.
+
+
+
+Je vais maintenant dans mC pour comprendre ce que ça fait.
+
+Oh shit il y a plein d'attributs qui font toute les lettres de l'alphabet.
+a contient "byte[]" : il s'agit simplement du nom pour un tableau de bytes.
+b contient le nom complet de la classe Boolean ("java.lang.Boolean").
+c, d contiennent le nom complet de la classe Date ("java.util.Date").
+e contient le nom complet de la classe Double ("java.lang.Double"), et ainsi de suite.
+i contient "java.lang.String", qui est le nom de la classe String.
+j contient "java.sql.Time", et k contient "java.sql.Timestamp"
+l contiendra les bytes correspondant à la chaîne "byte[]".
+m contiendra les bytes correspondant au nom complet de la classe Boolean ("java.lang.Boolean"), et ainsi de suite pour les autres variables.
+
