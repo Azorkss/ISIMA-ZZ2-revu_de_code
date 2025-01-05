@@ -1,0 +1,41 @@
+-J-Duser.language=
+-J-Duser.country=
+@options
+@packages
+-encoding
+'UTF-8'
+-protected
+-source
+'1.8'
+-sourcepath
+'/home/local.isima.fr/locostiou/shared/Documents/ZZ2/revu_de_code/TP_1/TP_1/src/main/java'
+-author
+-bottom
+'Copyright &#169; 2024. All rights reserved.'
+-charset
+'UTF-8'
+-d
+'/home/local.isima.fr/locostiou/shared/Documents/ZZ2/revu_de_code/TP_1/TP_1/target/reports/apidocs'
+-docencoding
+'UTF-8'
+-doctitle
+'redscan-utils 1.0.2 API'
+-linkoffline
+'https://docs.oracle.com/javase/8/docs/api' '/home/local.isima.fr/locostiou/shared/Documents/ZZ2/revu_de_code/TP_1/TP_1/target/javadoc-bundle-options'
+-use
+-version
+-windowtitle
+'redscan-utils 1.0.2 API'
+fr.isima.codereview.tp1
+/home/local.isima.fr/locostiou/shared/Documents/ZZ2/revu_de_code/TP_1/TP_1/src/main/java = 1730897760396
+/home/local.isima.fr/locostiou/shared/Documents/ZZ2/revu_de_code/TP_1/TP_1/target/reports/apidocs/overview-tree.html = 1732112270730
+/home/local.isima.fr/locostiou/shared/Documents/ZZ2/revu_de_code/TP_1/TP_1/target/reports/apidocs/index.html = 1732112270755
+/home/local.isima.fr/locostiou/shared/Documents/ZZ2/revu_de_code/TP_1/TP_1/target/reports/apidocs/package-list = 1732112270681
+/home/local.isima.fr/locostiou/shared/Documents/ZZ2/revu_de_code/TP_1/TP_1/target/reports/apidocs/script.js = 1732112270770
+/home/local.isima.fr/locostiou/shared/Documents/ZZ2/revu_de_code/TP_1/TP_1/target/reports/apidocs/stylesheet.css = 1732112270766
+/home/local.isima.fr/locostiou/shared/Documents/ZZ2/revu_de_code/TP_1/TP_1/target/reports/apidocs/constant-values.html = 1732112270708
+/home/local.isima.fr/locostiou/shared/Documents/ZZ2/revu_de_code/TP_1/TP_1/target/reports/apidocs/deprecated-list.html = 1732112270741
+/home/local.isima.fr/locostiou/shared/Documents/ZZ2/revu_de_code/TP_1/TP_1/target/reports/apidocs/allclasses-noframe.html = 1732112270750
+/home/local.isima.fr/locostiou/shared/Documents/ZZ2/revu_de_code/TP_1/TP_1/target/reports/apidocs/allclasses-frame.html = 1732112270745
+/home/local.isima.fr/locostiou/shared/Documents/ZZ2/revu_de_code/TP_1/TP_1/target/reports/apidocs/index-all.html = 1732112270736
+/home/local.isima.fr/locostiou/shared/Documents/ZZ2/revu_de_code/TP_1/TP_1/target/reports/apidocs/help-doc.html = 1732112270760
